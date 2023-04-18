@@ -1,0 +1,106 @@
+/* section 1 */
+#s1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/1548357920228.jpg);
+  height: 100vh;
+}
+/* navbar */
+body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #bebebe;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #ffffff;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* section 2 */
+#s2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/calendarofevents.jpg);
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+h5 {
+  cursor: pointer;
+  background-color: rgba(0, 204, 255, 0.301);
+  color: rgb(0, 195, 255);
+}
+
+/* time set  */
+
+#s3{
+    height: 100%;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.87)),
+    url(../img/03_Countdown_TED.com_Playlist-art_2000x2000.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+    .wrapper {
+    text-align: center;
+    }
+    .time {
+    color: #fff;
+    font-size: 7em;
+    }
+    .label {
+    font-size: 1.5em;
+    display: block;
+    color: #ffee00;
+    }
+
+
+#for1{
+    height: 250px !important;
+}
+input{
+    border-radius: 0% !important;
+}
+
+
+.alli i{
+  border: 2px solid black;
+  padding: 10px;
+  transition: all 1s;
+}
+.alli i:hover{
+  background-color: #ffee00;
+  color: black;
+  cursor: pointer;
+}
